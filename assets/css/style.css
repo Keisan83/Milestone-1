@@ -38,12 +38,12 @@ h4 {
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    color: #E85A4F;
+    color: #A4A71E;
 }
 
 .inline-block {
     display: inline-block;
-    color: #A4A71E;
+    color: #0b0c10;
     
 }
 
@@ -98,7 +98,7 @@ header {
 }
 
 #nav li {
-    font-size: 15px;
+    font-size: 20px;
     padding: 0;
 }
 
@@ -149,16 +149,44 @@ footer {
 }
 
 .cv-pdf i {
-    font-size: 18px;
-    color: #8E8D8A;
+    font-size: 20px;
+    color: #E85A4F;
     text-align: center;
     padding-left: 5px;
     transition: all 0.40s ease-in-out;
     -moz-transition: all 0.40s ease-in-out;
     -webkit-transition: all 0.40s ease-in-out;
     -o-transition: all 0.40s ease-in-out;
-    }
+}
 
-    .cv-pdf i:hover{
-        color: #86c232;
-    }
+.cv-pdf i:hover {
+    color: #86c232;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #0b0c10;
+    background-color: #E85A4F;
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color:  #EAE7DC;
+    color: #E85A4F;     
+}
+
+
+
