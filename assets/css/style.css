@@ -22,6 +22,28 @@
 .ui-menu-color-download {
     background-color: #D8C3A5;  
 }
+/*---------------------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #E85A4F;
+}
+
+.inline-block {
+    display: inline-block;
+}
 
 /*---------------------------------------------------Heading */
 
@@ -114,4 +136,12 @@ header {
 .hvr-sweep-to-bottom::before {
     background-color: #EAE7DC;
     height: 120px;
+}
+
+/*---------------------------------------------------Footer */
+
+footer {
+    background-color: #EAE7DC; 
+    min-height: 120px;
+    margin: 0;
 }
