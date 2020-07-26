@@ -43,6 +43,8 @@ h4 {
 
 .inline-block {
     display: inline-block;
+    color: #A4A71E;
+    
 }
 
 /*---------------------------------------------------Heading */
@@ -145,3 +147,18 @@ footer {
     min-height: 120px;
     margin: 0;
 }
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #8E8D8A;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.40s ease-in-out;
+    }
+
+    .cv-pdf i:hover{
+        color: #86c232;
+    }
