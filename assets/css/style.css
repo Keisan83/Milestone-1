@@ -7,7 +7,7 @@
 }
 
 .bg-color-three-reasons {
-    background-color:#fff;
+    background-color: #fff; /*#efe2ba*/
 }
 
 .ui-menu-color-home {
@@ -17,7 +17,6 @@
 .ui-menu-color-resume {
     background-color: #D8C3A5;
 }
-
 
 .ui-menu-color-contact {
     background-color: #D8C3A5;
@@ -43,7 +42,7 @@ h4 {
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    color: #A4A71E;
+    color: #0b0c10;
 }
 
 .inline-block {
@@ -87,6 +86,7 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
 }
 
 .name {
@@ -114,13 +114,13 @@ header {
     font-size: 0;
 }
 
-#nav {
-    margin: 0;
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
 
-#nav li {
-    font-size: 20px;
-    padding: 0;
+#nav {
+    margin: 0;
 }
 
 .menuitem {
@@ -137,7 +137,7 @@ header {
 }
 
 .menuitem a i {
-    padding-top: 25px;
+    padding-top: 22px;
     display: block;
     color: #E85A4F;
     font-size: 26px;
@@ -209,5 +209,13 @@ footer {
     color: #E85A4F;     
 }
 
+/*---------------------------------------------------Three Reson */
 
+.three-reasons-icon {
+    font-size: 26px;
+    color: #A4A71E;
+}
 
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
