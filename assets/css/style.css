@@ -64,7 +64,7 @@ h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 /*---------------------------------------------------Heading */
@@ -170,7 +170,7 @@ footer {
 }
 
 .cv-pdf i {
-    font-size: 20px;
+    font-size: 18px;
     color: #E85A4F;
     text-align: center;
     padding-left: 5px;
@@ -193,7 +193,7 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 13px;
     line-height: 7px;
     text-align: center;
     color: #0b0c10;
@@ -207,6 +207,10 @@ footer {
 .social-links li a i:hover {
     background-color:  #EAE7DC;
     color: #E85A4F;     
+}
+
+#footer-details {
+    padding: 20px;
 }
 
 /*---------------------------------------------------Three Reson */
