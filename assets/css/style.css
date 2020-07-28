@@ -7,7 +7,15 @@
 }
 
 .bg-color-three-reasons {
-    background-color: #fff; /*#efe2ba*/
+    background-color: #EAE7DC; /*#efe2ba*/
+}
+
+.bg-color-personal-info {
+    background-color:  #f4f4f4;
+}
+
+.bg-color-contact {
+    background-color: #EAE7DC;
 }
 
 .ui-menu-color-home {
@@ -24,6 +32,10 @@
 
 .ui-menu-color-download {
     background-color: #D8C3A5;  
+}
+
+.nav-text-color {
+    text-decoration-color: #D8C3A5;
 }
 
 /*---------------------------------------------------Special paddings/margins/text */
@@ -65,6 +77,10 @@ h4 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+.text-center {
+    padding-top: 20px;
 }
 
 /*---------------------------------------------------Heading */
@@ -151,26 +167,27 @@ header {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 6px;
+    color: #A4A71E;
 }
 
 /*---------------------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom::before {
-    background-color: #EAE7DC;
+    background-color: #EAE7DC; 
     height: 120px;
 }
 
 /*---------------------------------------------------Footer */
 
 footer {
-    background-color: #EAE7DC; 
+    background-color: #D8C3A5; 
     min-height: 120px;
     margin: 0;
 }
 
 .cv-pdf i {
-    font-size: 18px;
+    font-size: 20px;
     color: #E85A4F;
     text-align: center;
     padding-left: 5px;
@@ -193,7 +210,7 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 20px;
     line-height: 7px;
     text-align: center;
     color: #0b0c10;
@@ -205,7 +222,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background-color:  #EAE7DC;
+    background-color:  #D8C3A5;
     color: #E85A4F;     
 }
 
@@ -213,13 +230,63 @@ footer {
     padding: 20px;
 }
 
-/*---------------------------------------------------Three Reson */
+/*---------------------------------------------------Three Reasons */
 
 .three-reasons-icon {
-    font-size: 26px;
     color: #A4A71E;
+    font-size: 25px;
 }
 
-.three-reasons-heading {
-    margin-bottom: 15px;
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+/*---------------------------------------------------Contact Form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #0b0c10;
+    background-color: #E85A4F;
 }
