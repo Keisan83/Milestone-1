@@ -6,8 +6,8 @@
     background-color: #EAE7DC;
 }
 
-.bg-color-three-reasons {
-    background-color: #EAE7DC; /*#efe2ba*/
+.bg-color-about-me {
+    background-color: #EAE7DC; 
 }
 
 .bg-color-personal-info {
@@ -94,15 +94,11 @@ header {
 }
 
 .logo {
-    background: url("../images/MC.JPG");
-    background-position: center;
+    background: url("../images/kei.jpeg");
+    /*background-position: center;*/
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
+    
 }
 
 .name {
@@ -231,11 +227,16 @@ footer {
     padding: 20px;
 }
 
-/*---------------------------------------------------Three Reasons */
+.copy-right {
+    margin-top: 30px;
+}
 
-.three-reasons-icon {
-    color: #A4A71E;
-    font-size: 25px;
+/*-------------------------------------------------- About Me */
+
+h6 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .personal-info-item {
@@ -291,4 +292,8 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #0b0c10;
     background-color: #E85A4F;
+}
+
+.textarea message.form-control {
+    flex-direction: column-reverse;
 }
